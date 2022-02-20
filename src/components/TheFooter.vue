@@ -3,7 +3,7 @@
     <div class="footer-container">
       <div class="enjoy">Profitez-en de manière responsable</div>
       <div class="some_icons">
-        <a href="#" target="_blank"
+        <a href="https://www.youtube.com/user/lilfaso" target="_blank"
           ><img
             src="@/assets/icon/icon-youtube.png"
             data-hover="@/assets/icon/icon-youtube.png"
@@ -15,7 +15,7 @@
             data-hover="@/assets/icon/icon-fb-o.png"
             alt="icon-fb-o.png"
         /></a>
-        <a href="#" target="_blank"
+        <a href="https://www.instagram.com/ouili_desire/?hl=fr" target="_blank"
           ><img
             src="@/assets/icon/icon-instagram1.png"
             data-hover="@/assets/icon/icon-instagram-o.png"
@@ -52,5 +52,12 @@
   height: 16px;
   margin: 0 20px;
   color: white;
+}
+
+.some_icons a img:hover {
+  width: 16px;
+  height: 16px;
+  margin: 0 20px;
+  color: #d51015;
 }
 </style>

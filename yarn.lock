@@ -1667,11 +1667,6 @@ fsevents@~2.3.2:
   resolved "https://registry.yarnpkg.com/fsevents/-/fsevents-2.3.2.tgz#8a526f78b8fdf4623b709e0b975c52c24c02fd1a"
   integrity sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA==
 
-fullpage.js@^3.1.0:
-  version "3.1.2"
-  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-3.1.2.tgz#ee6289f52edb2a9f9c25d09c4022043b701d3cc0"
-  integrity sha512-hv7z6xhbg2StTp1UDq2hi+0oHjhT7cW3zCL3qCIJ3ood5pN0FRBQ2YKIOUobhsp4ATSQlr6sZ2TOcS+Ha+T7Cg==
-
 function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -1783,6 +1778,11 @@ graceful-fs@^4.1.6, graceful-fs@^4.2.0:
   version "4.2.9"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.2.9.tgz#041b05df45755e587a24942279b9d113146e1c96"
   integrity sha512-NtNxqUcXgpW2iMrfqSfR73Glt39K+BLwWsPs94yR63v45T0Wbej7eRmL5cWfwEgqXnmjQp3zaJTshdRW/qC2ZQ==
+
+gsap@^3.9.1:
+  version "3.9.1"
+  resolved "https://registry.yarnpkg.com/gsap/-/gsap-3.9.1.tgz#d4c7443540497afee9ddc0824fd0180224e33360"
+  integrity sha512-JSGVYoC6da4pIjdF/yxFU6Rz8OojOIDkbooveZlfNg0+JIoFoRruyfWAEi6R/gUeNcuOiTqUIb0gi1nCNrHf8w==
 
 has-flag@^4.0.0:
   version "4.0.0"
@@ -3279,18 +3279,6 @@ vue-eslint-parser@^8.0.0, vue-eslint-parser@^8.0.1:
     esquery "^1.4.0"
     lodash "^4.17.21"
     semver "^7.3.5"
-
-vue-fullpage.js@^0.1.7:
-  version "0.1.7"
-  resolved "https://registry.yarnpkg.com/vue-fullpage.js/-/vue-fullpage.js-0.1.7.tgz#62bc53948f2217fb14ea555021b13fb997b4e141"
-  integrity sha512-dApXyMrAPhikXbl5ngXALvetsIZCOf+ug9kvcvVSQkOoG9yh9stq5PQYMz/A1yIBVUx1yE9/3cK3VP6rl26V1A==
-  dependencies:
-    fullpage.js "^3.1.0"
-
-vue-fullpage@^2.0.5:
-  version "2.0.5"
-  resolved "https://registry.yarnpkg.com/vue-fullpage/-/vue-fullpage-2.0.5.tgz#fc1a75f032cd6e8a8e18686640506a84d9249184"
-  integrity sha512-VlfzlNfj36rUwddO10Pm7qIFujdfFCklUNwMkB+UnL1qUtNU2bUF7HbS2EaSCR6F3xJU6pmERLv8Fcz4YX4Tbg==
 
 vue-router@^4.0.12:
   version "4.0.12"

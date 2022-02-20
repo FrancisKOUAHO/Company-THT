@@ -32,7 +32,6 @@ export default defineComponent({
 <style lang="scss">
 body {
   height: 100vh;
-  overflow-x: hidden;
   margin: 0;
   padding: 0;
   background-color: black;
@@ -44,6 +43,10 @@ body {
     min-width: 100%;
     min-height: 100%;
   }
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 video {
