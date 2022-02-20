@@ -68,7 +68,7 @@
   color: #d51015;
 }
 
-label .menu[data-v-9a9f6144] {
+/*label .menu[data-v-9a9f6144] {
   position: absolute;
   right: 0px;
   top: 8px;
@@ -81,9 +81,9 @@ label .menu[data-v-9a9f6144] {
   transition: 0.5s ease-in-out;
   box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
   cursor: pointer;
-}
+}*/
 
-/*label .menu {
+label .menu {
   position: absolute;
   right: -100px;
   top: -100px;
@@ -96,12 +96,14 @@ label .menu[data-v-9a9f6144] {
   transition: 0.5s ease-in-out;
   box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
   cursor: pointer;
-}*/
+}
+
+
 
 label .hamburger {
   position: absolute;
-  top: 53%;
-  right: 44%;
+  top: 135px;
+  left: 50px;
   width: 30px;
   height: 2px;
   background: #d51015;
