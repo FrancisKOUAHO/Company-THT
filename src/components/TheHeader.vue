@@ -71,7 +71,7 @@
 label .menu[data-v-9a9f6144] {
   position: absolute;
   right: 0px;
-  top: -122px;
+  top: 8px;
   z-index: 100;
   width: 200px;
   height: 200px;
@@ -100,8 +100,8 @@ label .menu[data-v-9a9f6144] {
 
 label .hamburger {
   position: absolute;
-  top: 135px;
-  left: 50px;
+  top: 53%;
+  right: 44%;
   width: 30px;
   height: 2px;
   background: #d51015;

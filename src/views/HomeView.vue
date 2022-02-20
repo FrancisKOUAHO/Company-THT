@@ -1,12 +1,12 @@
 <script lang="ts">
-import { defineComponent } from "vue";
+import {defineComponent} from "vue";
 import TheHeader from "@/components/TheHeader.vue";
 import TheNav from "@/components/TheNav.vue";
 import TextHome from "@/components/TextHome.vue";
 import TheFooter from "@/components/TheFooter.vue";
 
 export default defineComponent({
-  components: { TheFooter, TextHome, TheNav, TheHeader },
+  components: {TheFooter, TextHome, TheNav, TheHeader},
   data() {
     return {};
   },
@@ -14,19 +14,19 @@ export default defineComponent({
 </script>
 
 <template>
-  <the-header />
-  <the-nav />
+  <the-header/>
+  <the-nav/>
   <video
-    playsinline="playsinline"
-    autoplay="autoplay"
-    loop="loop"
-    id="pageHomeVideo"
-    muted="muted"
+      playsinline="playsinline"
+      autoplay="autoplay"
+      loop="loop"
+      id="pageHomeVideo"
+      muted="muted"
   >
-    <source src="@/assets/video/page-home.mp4" type="video/mp4" />
+    <source src="@/assets/video/page-home.mp4" type="video/mp4"/>
   </video>
-  <text-home />
-  <the-footer />
+  <text-home/>
+  <the-footer/>
 </template>
 
 <style lang="scss">
@@ -45,7 +45,16 @@ body {
   }
 }
 
-::-webkit-scrollbar{
+.scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hidden {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
   display: none;
 }
 
