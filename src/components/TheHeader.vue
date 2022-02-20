@@ -2,21 +2,29 @@
 
 <template>
   <header class="header zIndex">
-    <div>
-      <span class="color-text fr">FR</span>
+    <div class="header-zindex">
+      <span class="color-text fr active">FR</span>
       <span class="color-text en">EN</span>
     </div>
-    <div>
+    <div class="header-zindex">
       <h1 class="color-text">LOGO</h1>
     </div>
     <label>
       <input type="checkbox"/>
       <span class="menu"> <span class="hamburger"></span> </span>
       <ul>
-        <li><router-link :to="{ name: 'home' }">Accueil</router-link></li>
-        <li><router-link :to="{ name: 'presentation' }">Présentation</router-link></li>
-        <li><router-link :to="{ name: 'galeries' }">Galeries</router-link></li>
-        <li><router-link :to="{ name: 'contact' }">Contact</router-link></li>
+        <li>
+          <router-link :to="{ name: 'home' }">Accueil</router-link>
+        </li>
+        <li>
+          <router-link :to="{ name: 'presentation' }">Présentation</router-link>
+        </li>
+        <li>
+          <router-link :to="{ name: 'galeries' }">Galeries</router-link>
+        </li>
+        <li>
+          <router-link :to="{ name: 'contact' }">Contact</router-link>
+        </li>
       </ul>
     </label>
   </header>
@@ -29,6 +37,10 @@
   justify-content: space-between;
   align-items: center;
 
+}
+
+.header-zindex {
+  z-index: 1;
 }
 
 .zIndex {
@@ -48,6 +60,29 @@
   margin-left: 1rem;
 }
 
+.fr:hover, .en:hover {
+  color: #d51015;
+}
+
+.active {
+  color: #d51015;
+}
+
+/*label .menu[data-v-9a9f6144] {
+  position: absolute;
+  right: 0px;
+  top: 8px;
+  z-index: 100;
+  width: 200px;
+  height: 200px;
+  background: white;
+  border-radius: 50% 50% 50% 50%;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  box-shadow: 0 0 0 0 #fff, 0 0 0 0 #fff;
+  cursor: pointer;
+}*/
+
 label .menu {
   position: absolute;
   right: -100px;
@@ -63,13 +98,15 @@ label .menu {
   cursor: pointer;
 }
 
+
+
 label .hamburger {
   position: absolute;
   top: 135px;
   left: 50px;
   width: 30px;
   height: 2px;
-  background:  #d51015;
+  background: #d51015;
   display: block;
   -webkit-transform-origin: center;
   transform-origin: center;
