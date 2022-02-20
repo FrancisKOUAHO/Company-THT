@@ -85,7 +85,7 @@
 
 label .menu {
   position: absolute;
-  right: -100px;
+  right: 0;
   top: -100px;
   z-index: 100;
   width: 200px;
@@ -103,7 +103,7 @@ label .menu {
 label .hamburger {
   position: absolute;
   top: 135px;
-  left: 50px;
+  left: 40%;
   width: 30px;
   height: 2px;
   background: #d51015;
