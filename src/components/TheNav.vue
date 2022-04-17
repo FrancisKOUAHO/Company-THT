@@ -12,11 +12,13 @@ export default defineComponent({
 
 <template>
   <div class="side_page_navigation">
-    <router-link :to="{ name: 'home' }" :class="{ current: isActive }"><span></span
+    <router-link to="#" :class="{ current: isActive }"
+      ><span></span
     ></router-link>
-    <router-link :to="{ name: 'presentation' }"><span></span></router-link>
-    <router-link :to="{ name: 'galeries' }"><span></span></router-link>
-    <router-link :to="{ name: 'contact' }"><span></span></router-link>
+    <router-link to="#"><span></span></router-link>
+    <router-link to="#"><span></span></router-link>
+    <router-link to="#"><span></span></router-link>
+    <router-link to="#"><span></span></router-link>
   </div>
 </template>
 
